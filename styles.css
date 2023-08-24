@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ccc;
+}
+
+/* global */
+.header,
+.hero,
+.random,
+.quote,
+.blue {
+    display: flex;
+    justify-content: center;
+}
+
+.header .container,
+.hero .container,
+.random .container,
+.quote .container {
+    width: 70%;
+}
+
+/* local */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header,
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+/* header */
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* hero */
+.hero .container {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.hero .container > * {
+    flex: 1;
+}
+
+
+.hero .big-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero .image {
+    box-sizing: border-box;
+    align-self: center;
+    text-align: center;
+    background-color: #999;
+    padding: 90px;
+}
+
+.hero .small-text {
+    margin: 10px 0px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 7px 24px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+/* random */
+
+.random {
+    background-color: white;
+}
+.random .container {
+    margin-bottom: 100px;
+}
+.random .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px 0px;
+    color: #1f2937;
+}
+
+
+.random .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.random .box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(77, 77, 240);
+    border-radius: 20px;
+}
+
+.random .outer-box {
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* quote */
+
+
+.quote .container {
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote .big-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote .small-text {
+    align-self: flex-end;
+}
+
+/* blue */
+
+.blue {
+    background-color: white;
+    padding: 100px 0px;
+}
+
+.blue .container {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.blue button {
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 26px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
